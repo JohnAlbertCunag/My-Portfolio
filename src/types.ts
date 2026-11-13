@@ -7,6 +7,7 @@ export interface Profile {
   about: string
   photo: string
   email: string
+  phone: string
   location: string
   resume: string
   availability: string

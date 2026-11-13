@@ -1,17 +1,18 @@
 import type { Profile } from '../types'
 
-// Replace /images/profile.svg with your portrait in public/images/ when ready.
+// Your portrait lives in public/images/profile.png. Replace it and keep this path updated.
 export const profile: Profile = {
   name: 'John Albert Cunag',
   shortName: 'JAC.',
   title: 'Information Technology Student',
-  eyebrow: 'Developer in progress. Problem solver by nature.',
-  intro: 'A motivated Bachelor of Science in Information Technology student interested in technology, web development, and IT support.',
-  about: 'I’m an IT student who enjoys making digital experiences clear, useful, and thoughtfully built. I’m learning through hands-on projects and looking for opportunities to grow alongside a collaborative team.',
-  photo: '/images/profile.svg',
-  email: 'your-email@example.com',
-  location: 'Philippines',
-  resume: '/files/john-cunag-cv.pdf',
+  eyebrow: 'Aspiring IT professional. Always willing to learn.',
+  intro: 'A motivated BSIT student with a strong interest in technology, problem-solving, and building a career in IT.',
+  about: 'I’m a responsible and adaptable Bachelor of Science in Information Technology student with basic knowledge of computer applications and information technology. I enjoy learning, solving practical problems, and collaborating with others. I’m looking for an opportunity to apply what I’ve learned, gain hands-on experience, and grow professionally in the IT industry.',
+  photo: '/images/profile.png',
+  email: 'johnalbertcunag59@gmail.com',
+  phone: '09939582608',
+  location: 'Batangas City, Philippines',
+  resume: './files/john-cunag-cv.pdf',
   availability: 'Open to internship opportunities',
-  education: { school: 'Add your school', degree: 'Bachelor of Science in Information Technology', period: 'Update dates' },
+  education: { school: 'STI College Batangas', degree: 'Bachelor of Science in Information Technology', period: 'SY 2022–2026' },
 }
